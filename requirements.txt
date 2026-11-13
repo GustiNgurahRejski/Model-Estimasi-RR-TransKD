@@ -1,0 +1,16 @@
+# Catatan: install torch SESUAI versi CUDA laptopmu lewat perintah khusus
+# dari https://pytorch.org/get-started/locally/ SEBELUM menjalankan pip install -r ini,
+# supaya PyTorch yang terpasang memakai GPU (bukan versi CPU-only default PyPI).
+#
+# Contoh (CUDA 12.1):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+#
+# Baru setelah itu jalankan:
+#   pip install -r requirements.txt
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+tqdm>=4.65
